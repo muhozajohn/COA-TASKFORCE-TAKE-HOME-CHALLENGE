@@ -24,9 +24,9 @@ html {
   --gray-color: rgb(116, 126, 126);
 
   /* width */
-  --lg-screen: 85%;
-  --md-screen: 95%;
-  --sm-screen: 95%;
+  --lg-screen: 80%;
+  --md-screen: 90%;
+  --sm-screen: 87%;
   /* transition */
   --transition: all 0.3s ease-in-out;
 }
@@ -61,6 +61,9 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.2rem;
+}
+.imageWrapper{
+  max-height: 70vh;
 }
 .galleryCard {
   position: relative;
