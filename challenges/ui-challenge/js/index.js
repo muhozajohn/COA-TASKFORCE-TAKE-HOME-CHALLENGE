@@ -12,12 +12,12 @@ const galleryData = [
         location: "south africa",
     },
     {
-        imgSrc: "./assets/image.png",
+        imgSrc: "./assets/Image.png",
         title: "COMMON,BROWN BABOON",
         location: "south africa"
     },
     {
-        imgSrc: "./assets/image3.png",
+        imgSrc: "./assets/Image3.png",
         title: "SPOTTED DEER",
         location: "amazon",
     },
