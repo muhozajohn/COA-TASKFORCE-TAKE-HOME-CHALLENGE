@@ -36,7 +36,8 @@ function createGalleryCards() {
       <div class="contents">
         <h1>${data.title.split(" ").join("<br>")}</h1>
         <small class="location">${data.location}</small>
-        <p class="more">Know More &#8594;</p>
+        <p class="more"> <span> Know More </span> <i class="fa-solid fa-arrow-right-long"></i></p>
+        
       </div>
     </div>
   `;
