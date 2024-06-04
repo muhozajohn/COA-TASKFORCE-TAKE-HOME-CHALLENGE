@@ -31,7 +31,7 @@ function createGalleryCards() {
         galleryCard.classList.add("galleryCard");
 
         galleryCard.innerHTML = `
-    <img src="${data.imgSrc}" alt="${data.title}" />
+    <div class="imageWrapper"> <img src="${data.imgSrc}" alt="${data.title}" /></div>
     <div class="galleryOverlay">
       <div class="contents">
         <h1>${data.title.split(" ").join("<br>")}</h1>
